@@ -10,7 +10,7 @@ body {
   height: 654px;
   margin: 0 auto;
   text-indent: -999em;
-  background: transparent url(http://cdn.hiphopwired.com/wp-content/uploads/2013/09/Vanellope-Von-Scweetz-wreck-it-ralph.png) center center no-repeat;
+  background: darkslategray;
 }
 
 @keyframes noise-anim {
