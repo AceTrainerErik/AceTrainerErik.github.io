@@ -1,12 +1,14 @@
 {
-    "name": "AceTrainerErik",
-    "version": "1.0.0",
-    "main": "path/to/main.css",
-    "ignore": [
-        ".jshintrc", "**/*.txt"
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+  "name": "AceTrainerErik",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {"jqueryui":"1.12.1",
+    "jquery": "3.3.1",
+    "jquery-ui": "jqueryui#1.12.1"
+  },
+  "devDependencies": {}
 }
