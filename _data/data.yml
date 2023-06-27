@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    # about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Erik Birch
+    tagline: Professional Problem Solver
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: acetrainererik@gmail.com
+    timezone: Eastern/Indianaplis
+    citizenship:
+    website: erikbirch.com #do not add http://
+    linkedin: erikwbirch
+    github: AceTrainerErik
+    telegram: # add your nickname without '@' sign
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Kayaking
+          link:
+          
+        - item: Backpacking
+          link:
+
+        - item: 3D Modelling/Printing
+          link:
+
+        - item: Gaming
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      
+education:
+    title: Education
+    info:
+      - degree: BS in Computer Science
+        university: Indianapolis University Purdue University Indianapolis
+        time: 2008 - 2012
+experiences:
+    title: Experiences
+    info:
+      - role: Application Support Engineer
+        time: 2018 - Present
+        company: The Craneward Group - Technical Client Supprort
+        details: |
+          The technical client support team (TCS) manages all product issues within the company. When the implementation, development, sales, or support teams need answers TCS is the best resource for getting those answers.
+            - Primary contact for all product question.
+            - Manage relationships with customers through regular communication, informative reporting, and 
+            - Read, Write, and internalize company code including Ruby, SQL, PHP, and Shell.
+            - Work directly with customers in order to create viable solutions for complex problems.
+            - Diagnose data flow issues between hospitals and our data centers.
+            
+            
+      - role: Automation Engineer
+        time: 2017 - 2018
+        company: Orchard Software
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            - Bullet point
+            - Bullet point
+            
+      - role: Quality Support Engineer
+        time: 2016 - 2017
+        company: Orchard Software
+        details: |
+          Operate as the primary QA contact for technical support and all SQL related questions. 
+            - Operate as a high-tier support resource for our highest-value clients.
+            - Work closely with development and support departments
+            
+      - role: Emerging Technology Specialist
+        time: 2016 - 2016
+        company: Orchard Software
+        details: |
+          Test, document, and manage all new technologies deployed by the company. Prepare our support teamn for working with new producxts and technologies so transitions from development to support can be as seamless as possible.
+            - Continue to operate as a technical support keystone.  The problems that cannot be solved come to me for solving.
+            - Management of our highest-value clients with 24-hour availability.
+            - Primary resource for miscellaneous testing of technologies introduced to the department
+            - Work with reporting technologies such as powerBI and SSRS to create dynamic and powerful reports for clients.
+            
+      - role: Technical Support Analyst
+        time: 2014 - 2016
+        company: Orchard Software
+        details: |
+          Operate as an analyst for the tecnical support team while learning and documenting the product. Operated as the direct contact for dozens of clients.
+            - Management of SQL Server systems, including, performing maintenance, managing data retention, and diagnosing slowness issues.
+            - Gather and manage complex laboratory requirements from clients and translate that into viable workflows within the product.
+            - Write custom reporting queries for
+            - Operate as the primary technical resource for the support department.
+            - Develop internal softwares for departmental use.
+projects:
+    title: Projects
+    intro: >
+      Most of my projects are work related, and therefore proprietary. However from time to time I make things that I find necessary or helpful that get put onto github.
+    assignments:
+      - title: 4-Card Blind Discord Bot
+        link: "#hook"
+        tagline: "A call and response/command bot written in c# to help some friends manage their discord server. Utilizes SQLite to track user data and provide it for analysis later."
+
+      - title: Scryfall API
+        link: "#"
+        tagline: "This open source API was being used to pull data required for the above project. I needed a specific API feature so I added it for myself."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Technical Communicaiton
+        level: 95%
+        
+      - name: SQL
+        level: 95%
+        
+      - name: JIRA
+        level: 85%
+        
+      - name: C#
+        level: 70%
+
+      - name: Linux
+        level: 70%
+
+      - name: Python
+        level: 45%
+
