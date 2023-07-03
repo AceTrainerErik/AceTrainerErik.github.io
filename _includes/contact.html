@@ -97,5 +97,17 @@
     </li>
     {% endif %}
 
+    {% if sidebar.book.title %}
+    <li class="book"><i class="fas fa-book"></i>
+      {% if sidebar.book.link %}
+      <a href="{{ sidebar.book.link}}" target="_blank">
+        {{ sidebar.book.title }}
+      </a>
+      {% else %}
+        {{ sidebar.book.title }}
+      {% endif %}
+    </li>
+    {% endif %}
+
   </ul>
 </div><!--//contact-container-->
