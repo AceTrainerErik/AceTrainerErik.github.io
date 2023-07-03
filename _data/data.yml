@@ -23,7 +23,10 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
-
+    book: 
+      title: Children of Memory
+      link: https://www.goodreads.com/book/show/60850767-children-of-memory
+      
     misc:
       title: Miscellaneous Skills
       info:
@@ -76,8 +79,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hello! My name is Erik and I am a professional problem solver. I made this website both as a learning exercise and as a place to host information about myself.
-
+      Hello! My name is Erik and I am a professional problem solver. I made this website both as a learning exercise and as a place to host information about myself. In my spare time I enjoy reading science fiction novels, kayaking, and gaming.
 education:
     title: Education
     info:
@@ -101,7 +103,6 @@ experiences:
             - Diagnose and Identify product issues, customer workflow, data ingestion, and local technology issues  from poor ingestion policies to addressing issues at the
               - Acted as the primary resource for diagnosis of urgent issues.
             - Responsible for the mentoring and training of new team members.
-
       - role: Automation Engineer
         time: 2017 - 2018
         company: Orchard Software
@@ -109,7 +110,6 @@ experiences:
           Work as a team in order to implement an automated testing workflow for the company software pipeline. This included an implementation of a Jenkins CI/CD pipeline.
             - Implemented an automated service that tracked and marked Confluence documentation as out of date. This included pipelines to assign the review of pages in addition to 
             - Designed and implemented reporting for all automation efforts. Ensured that these 
-
       - role: Quality Assurance Engineer
         time: 2016 - 2017
         company: Orchard Software
@@ -117,7 +117,6 @@ experiences:
           Operate as the primary QA contact for technical support and all SQL related questions. This is the department that handles
             - Operate as a high-tier support resource for our highest-value clients.
             - Work closely with development and support departments
-
       - role: Emerging Technology Specialist
         time: 2016 - 2016
         company: Orchard Software
@@ -138,7 +137,6 @@ experiences:
             - Write custom reporting queries for
             - Operate as the primary technical resource for the support department.
             - Develop internal softwares for departmental use.
-
 projects:
     title: Projects
     intro: >
@@ -175,4 +173,4 @@ skills:
         level: 45%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Modified from an original design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
