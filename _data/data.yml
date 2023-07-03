@@ -23,7 +23,10 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
-
+    book: 
+      title: Children of Memory
+      link: https://www.goodreads.com/book/show/60850767-children-of-memory
+      
     misc:
       title: Miscellaneous Skills
       info:
@@ -76,7 +79,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hello! My name is Erik and I am a professional problem solver. I made this website both as a learning exercise and as a place to host information about myself.
+      Hello! My name is Erik and I am a professional problem solver. I made this website both as a learning exercise and as a place to host information about myself. In my spare time I enjoy reading science fiction novels, kayaking, and gaming.
 
 education:
     title: Education
