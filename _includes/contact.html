@@ -2,103 +2,103 @@
   <ul class="list-unstyled contact-list">
 
     {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
+    <li class="email"><i class="fas fa-envelope aria-label" title="Email"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
-    <li class="phone"><i class="fas fa-phone"></i>
+    <li class="phone"><i class="fas fa-phone aria-label" title="Phone Number"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.citizenship %}
-    <li class="phone"><i class="fas fa-passport"></i>
+    <li class="phone"><i class="fas fa-passport aria-label" title="Citizenship"></i>
       <a href="">{{ sidebar.citizenship }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.timezone %}
-    <li class="timezone"><i class="fas fa-clock"></i>
+    <li class="timezone"><i class="fas fa-clock aria-label" title="Timezone"></i>
       <a href="">{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.telegram %}
-    <li class="telegram"><i class="fab fa-telegram"></i>
+    <li class="telegram"><i class="fab fa-telegram aria-label" title="Telegram"></i>
       <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-americas"></i>
+    <li class="website"><i class="fas fa-globe-americas aria-label" title="Personal Website"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
+    <li class="linkedin"><i class="fab fa-linkedin aria-label" title="LinkedIn"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.xing %}
-    <li class="xing"><i class="fab fa-xing"></i>
+    <li class="xing"><i class="fab fa-xing aria-label" title="Xing"></i>
       <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
+    <li class="github"><i class="fab fa-github aria-label" title="GitHub"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.gitlab %}
-    <li class="gitlab"><i class="fab fa-gitlab"></i>
+    <li class="gitlab"><i class="fab fa-gitlab aria-label" title="Git Lab"></i>
       <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.bitbucket %}
-    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+    <li class="bitbucket"><i class="fab fa-bitbucket aria-label" title="Bitbucket"></i>
       <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.twitter %}
-    <li class="twitter"><i class="fab fa-twitter"></i>
+    <li class="twitter"><i class="fab fa-twitter aria-label" title="Twitter"></i>
       <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.stack-overflow %}
-    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+    <li class="stack-overflow"><i class="fab fa-stack-overflow aria-label" title="Stack Overflow"></i>
       <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
-    <li class="codewars"><i class="fas fa-code"></i>
+    <li class="codewars"><i class="fas fa-code aria-label" title="Codewars"></i>
       <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.goodreads %}
-    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+    <li class="goodreads-g"><i class="fab fa-goodreads-g aria-label" title="Goodreads"></i>
       <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.pdf %}
-    <li class="pdf"><i class="fas fa-file-pdf"></i>
+    <li class="pdf"><i class="fas fa-file-pdf aria-label" title="PDF Resume"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
 
     {% if sidebar.book.title %}
-    <li class="book"><i class="fas fa-book"></i>
+    <li class="book"><i class="fas fa-book aria-label" title="Currently Reading"></i>
       {% if sidebar.book.link %}
       <a href="{{ sidebar.book.link}}" target="_blank">
         {{ sidebar.book.title }}
