@@ -80,6 +80,7 @@ career-profile:
     title: Career Profile
     summary: |
       Hello! My name is Erik and I am a professional problem solver. I made this website both as a learning exercise and as a place to host information about myself. In my spare time I enjoy reading science fiction novels, kayaking, and gaming.
+
 education:
     title: Education
     info:
@@ -95,52 +96,58 @@ experiences:
         company: The Craneward Group
         details: |
           The technical client support team (TCS) manages all product issues within the company. When the implementation, development, sales, or support teams need answers TCS is the best resource for getting those answers.
-            - Operated as a primary customer contact for product related questions.
-            - Managed relationships with internal and external stakeholders through regular communication, informative reporting, and, 
-            - Read, wrote, and documented internal company code using languages including Ruby, SQL, PHP, and Shell.
+            - Operated as a direct point of contact for customers working with the team.
+            - Managed relationships with internal and external stakeholders through regular communication, informative reporting, and, solutions engineering.
+            - Translated client requirements into requirements documents for both implementation and development.
+            - Read, wrote, and documented internal company code using languages including Ruby, SQL, PHP, and Shell Script.
             - Worked directly with customers in order to create viable solutions for complex problems.
-            - Take innitiative on 
-            - Diagnose and Identify product issues, customer workflow, data ingestion, and local technology issues  from poor ingestion policies to addressing issues at the
-              - Acted as the primary resource for diagnosis of urgent issues.
+            - Take innitiative on understanding and filling knowledge gaps.
+            - Diagnose and Identify issues related to our product, customer workflows, data ingestion, and local technologies.
+            - Acted as a primary resource for diagnosis of urgent issues.
             - Responsible for the mentoring and training of new team members.
       - role: Automation Engineer
         time: 2017 - 2018
         company: Orchard Software
         details: |
-          Work as a team in order to implement an automated testing workflow for the company software pipeline. This included an implementation of a Jenkins CI/CD pipeline.
+          Work as a team in order to implement an automated testing workflow for the company. This included an implementation of a Jenkins CI/CD pipeline, a full testing suite
             - Implemented an automated service that tracked and marked Confluence documentation as out of date. This included pipelines to assign the review of pages in addition to 
-            - Designed and implemented reporting for all automation efforts. Ensured that these 
+            - Designed and implemented reporting for automation efforts. Ensured that these reports had proper documentation and provided information was clear and concise.
+            - Worked in C# to implement testing requirements and deploy them to our automated test suite.
+            - Load tested new softwares in order to ensure durability, stability, and resource expectations.
+            - Created an new installation suite for the company product in order to minimize our technology stack.
       - role: Quality Assurance Engineer
         time: 2016 - 2017
         company: Orchard Software
         details: |
           Operate as the primary QA contact for technical support and all SQL related questions. This is the department that handles
-            - Operate as a high-tier support resource for our highest-value clients.
-            - Work closely with development and support departments
+            - Operated as a high-tier support resource for our highest-value clients.
+            - Worked closely with development and support departments
+            - Supported and re-wrote the installation suite for our main product.
+            - Acted in a devops role for our support and implementation departments.
       - role: Emerging Technology Specialist
         time: 2016 - 2016
         company: Orchard Software
         details: |
           Test, document, and manage all new technologies deployed by the company. Prepare our support teamn for working with new producxts and technologies so transitions from development to support can be as seamless as possible.
-            - Continue to operate as a technical support keystone.  The problems that cannot be solved come to me for solving.
-            - Management of our highest-value clients with 24-hour availability.
-            - Primary resource for miscellaneous testing of technologies introduced sto the department
-            - Work with reporting technologies such as powerBI and SSRS to create dynamic and powerful reports for clients.
+            - Continued to operate as a technical support resource and keystone.
+            - Direct support of our highest-value clients with 24-hour availability.
+            - Operated as the primary resource for support and testing of technologies and products being introduced to the department for future support.
+            - Worked with reporting technologies such as powerBI and SSRS to create dynamic and powerful reports for clients.
             
-      - role: Technical Support Analyst
+      - role: Technical Support Analyst - Tier II
         time: 2014 - 2016
         company: Orchard Software
         details: |
           Operate as an analyst for the tecnical support team while learning and documenting the product. Operated as the direct contact for dozens of clients.
-            - Managemened SQL Server systems for various clients, including, performing maintenance, managing data retention, and diagnosis database related issues.
+            - Managed SQL Server systems for various clients, including, performing maintenance, managing data retention, and diagnosis database related issues.
             - Gathered complex laboratory requirements and translated them into viable workflows within the product.
-            - Write custom reporting queries for
-            - Operate as the primary technical resource for the support department.
-            - Develop internal softwares for departmental use.
+            - Wrote custom reporting queries for clients. Translated these queries into our reporting suite for recurring usage.
+            - Operated as the primary technical contact for long-standing issues.
+            - Developed internal softwares for support department use cases.
 projects:
     title: Projects
     intro: >
-      Most of my projects are work related, and therefore proprietary. However from time to time I make things that I find necessary or helpful that get put onto github.
+      The majority of my projects are proprietary work projects. However from time to time I make things that I find necessary or helpful that get put onto github.
     assignments:
       - title: 4-Card Blind Discord Bot
         link: "https://github.com/AceTrainerErik/4cb_bot"
@@ -173,4 +180,4 @@ skills:
         level: 45%
 
 footer: >
-  Modified from an original design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Website constructed with <a href="https://jekyllrb.com/"></a> and design modified from an original design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
