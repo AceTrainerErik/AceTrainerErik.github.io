@@ -55,6 +55,10 @@ p {
     color: #fff;
   }
 
+  .fa-ul {
+    margin-left: 1.5em;
+  }
+
   .profile-container {
     padding: 30px;
     background: rgba(0, 0, 0, 0.2);
@@ -122,13 +126,9 @@ p {
     margin-bottom: 10px;
   }
 
-  .degree {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
 
   .education-container {
+
     .item {
       margin-bottom: 15px;
 
@@ -137,15 +137,23 @@ p {
       }
     }
 
+    .degree {
+      color: $sidebar-text;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
     .meta {
-      color: color-mix(in srgb, var($sidebar-text), transparent(60%));
+      color: color-mix(in srgb, var($sidebar-text), transparent(75%));
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 2px;
       margin-top: 0;
     }
 
     .time {
-      color: color-mix(in srgb, var($sidebar-text), transparent(60%));
+      color: color-mix(in srgb, var($sidebar-text), transparent(75%));
       font-weight: 500;
       margin-bottom: 0px;
     }
@@ -189,38 +197,39 @@ p {
     }
   }
 
-  // .container-block-title {
-  //   text-transform: uppercase;
-  //   font-size: 16px;
-  //   font-weight: 700;
-  //   margin-top: 0;
-  //   margin-bottom: 5px;
-  // }
+  .misc-container {
+    padding-top: 5px;
 
-  .container-block-subtitle {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 5px;
-
-    i {
-      padding-right: 10px;
-    }
-  }
-
-  .misc-skills-block {
-    font-size: 14px;
-  }
-
-  .misc-list {
-    margin-bottom: 0;
-
-    li {
+    .misc-container-block {
       margin-bottom: 10px;
+    }
 
-      &:last-child {
-        margin-bottom: 0;
+    .container-block-subtitle {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 5px;
+
+      i {
+        padding-right: 10px;
+      }
+    }
+
+    .misc-skills-block {
+      font-size: 14px;
+    }
+
+
+    .misc-list {
+      margin-bottom: 0;
+
+      li {
+        margin-bottom: 10px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }
