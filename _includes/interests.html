@@ -6,15 +6,17 @@
     {{ interests.title }}
   </h2>
 
-  <ul class="list-unstyled interests-list">
+  <ul class="fa-ul list-unstyled interests-list">
     {% for interest in interests.info %}
-
-      {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
-      {% else %}
-      <li>{{ interest.item }}</li>
+      {% if interest.icon %}
+      <li><span class="fa-li"><i class="fa {{ interest.icon }}" aria-hidden="true"></i></span>
       {% endif %}
-
+      {% if interest.link %}
+      <a href="{{ interest.link }}">{{ interest.item }}</a>
+      {% else %}
+      {{ interest.item }}
+      </li>
+      {% endif %}
     {% endfor %}
   </ul>
 

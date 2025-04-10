@@ -1,37 +1,51 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ experiences.title }}
-  </h2>
+	<h2 class="section-title">
+		<span class="fa-stack fa-xs">
+			<i class="fas fa-circle fa-stack-2x"></i>
+			<i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+		</span>
+		{{ experiences.title }}
+	</h2>
 
-  {% for experience in experiences.info %}
-  <div class="item">
-
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-
-  </div><!--//item-->
-  {% endfor %}
+	<div class="card-group" id="accordion">
+		<div class="card card-default">
+			{% for experience in experiences.info %}
+			{% capture number %}{{ forloop.length }}{% endcapture %}
+				{% if experience.details %}
+				<div class="item">
+					<div class="card-header" id="exp-card-header-{{forloop.index}}">
+						<a class="{% unless forloop.first %}collapsed{% endunless %}" data-toggle="collapse" href="#exp-card-collapse-{{forloop.index}}" aria-expanded="true" aria-controls="exp-card-collapse-{{forloop.index}}">
+							<div class="meta" id="meta-id-{{forloop.index}}">
+								<div class="upper-row">
+									<h3 class="job-title">{{ experience.role }}</h3>
+									<div class="time">{{ experience.time }}</div>
+								</div> <!--//upper-row-->
+								<div class="company">{{ experience.company }}</div>
+							</div> <!--//meta-->
+						</a> <!--//a collapsed-->
+						<div id="exp-card-collapse-{{forloop.index}}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}" aria-labelledby="exp-card-header-{{forloop.index}}" data-parent="#selector">
+							<div class="card-body">
+								<div class="details">
+									{{ experience.details | markdownify }}
+								</div> <!--//details-->
+							</div> <!--//card-body-->
+						</div> <!--//collapse-{{forloop.index}}-->
+					</div>
+				</div> <!--//item-->
+				{% else %}
+				<div class="item">
+					<div class="upper-row">
+						<h3 class="job-title">{{ experience.role }}</h3>
+						<div class="time">{{ experience.time }}</div>
+					</div><!--//upper-row-->
+					<div class="company">{{ experience.company }}</div>
+				</div><!--//item-->
+				{% endif %}
+			{% endfor %}
+		</div><!--//card-->
+	</div><!--//accordion-->
 
 </section><!--//section-->
 {% endif %}
-

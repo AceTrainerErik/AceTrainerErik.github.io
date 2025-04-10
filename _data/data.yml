@@ -1,9 +1,8 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failure in output.
 #
 
 sidebar:
-    # about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -15,59 +14,89 @@ sidebar:
     email: acetrainererik@gmail.com
     timezone: Eastern/Indianapolis
     citizenship: US
-    website: erikbirch.com #do not add http://
+    website: erikbirch.com
     linkedin: erikwbirch
-    github: AceTrainerErik
+    # github: AceTrainerErik
     telegram: # add your nickname without '@' sign
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
     book: 
-      title: Children of Memory
-      link: https://www.goodreads.com/book/show/60850767-children-of-memory
+      title: Cloud Atlas
+      link: https://www.goodreads.com/book/show/49628.Cloud_Atlas
       
     misc:
       title: Miscellaneous Skills
-      info:
-        - item: Javascript
-        - item: PHP
-        - item: Ruby
-        - item: Automation
-        - item: CI/CD
-        - item: Java
-        - item: Oracle
-        - item: Windows
-        - item: Excel
-        - item: Perl
-        - item: Python
-        - item: Salesforce
-        - item: Confluence
-        - item: Automated Testing
-        - item: SVN
-        - item: JSON
-        - item: Reporting
-        - item: Jenkins
-        - item: Selenium
-        - item: HL7
-        - item: PHI Handling
+      skillsets:
+        - category:
+          subtitle: Skills
+          icon: fa-sitemap
+          info:
+            - item: Data Normalization
+            - item: Database Design
+            - item: Version Control
+            - item: Data Reporting
+            - item: Automation
+            - item: Testing
+            - item: Healthcare Data
+        - category:
+          subtitle: Language Experience
+          icon: fa-robot
+          info:
+            - item: SQL
+            - item: Java
+            - item: Python
+            - item: Javascript
+            - item: PHP
+            - item: Ruby
+            - item: Perl
+            - item: C
+            - item: C++
+            - item: C#
+            - item: Sh
+            - item: JSON
+        - category:
+          subtitle: Products &amp; Platforms
+          icon: fa-database
+          info:
+            - item: Git
+            - item: Azure
+            - item: Oracle PL/SQL
+            - item: SQL Server
+            - item: Sqlite
+            - item: Windows
+            - item: Linux
+            - item: Excel
+            - item: SVN
+            - item: Selenium
+            - item: PHI Protection
+            - item: Data Governance
+            - item: Automated Testing
+            - item: CI/CD
+            - item: Salesforce
+            - item: Confluence
 
     interests:
       title: Interests
       info:
+        - item: Coffee
+          icon: fa-coffee
+          link:
         - item: Cooking
+          icon: fa-lemon
           link:
-
         - item: Kayaking
+          icon: fa-tint
           link:
-
-        - item: 3D Modelling/Printing
+        - item: 3D Printing
+          icon: fa-print
           link:
-
         - item: Gaming
+          icon: fa-gamepad
           link:
-          
-        - item: Backpacking
+        - item: Camping
+          icon: fa-leaf
           link:
 
     languages:
@@ -79,79 +108,99 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hello! My name is Erik and I am a professional problem solver. I made this website both as a learning exercise and as a place to host information about myself. In my spare time I enjoy reading science fiction novels, kayaking, and gaming.
+      Hello! My name is Erik and I am a professional problem solver. In my spare time I enjoy reading SciFi novels, picking up new hobbies, traveling, and a variety of types of gaming. I've spent the past ten years working with healthcare data. Specifically, working labratory testing and pharmaceutical inventory softwares.
 
 education:
     title: Education
     info:
       - degree: BS in Computer Science
         university: Indianapolis University Purdue University Indianapolis 
-        time: 2008 - 2012
+        time: 2008 - 2013
 
 experiences:
-    title: Experiences
+    title: Experience
     info:
-      - role: Application Support Engineer
-        time: 2018 - Present
-        company: The Craneward Group
+      - role: Senior Application Support Engineer
+        time: 2022 - Present
+        company: The Craneware Group
         details: |
-          The technical client support team (TCS) manages all product issues within the company. When the implementation, development, sales, or support teams need answers TCS is the best resource for getting those answers.
-            - Operated as a direct point of contact for customers working with the team.
-            - Managed relationships with internal and external stakeholders through regular communication, informative reporting, and, solutions engineering.
-            - Translated client requirements into requirements documents for both implementation and development.
+          As a Senior Engineer at the Craneware Group, my role expanded into role more focused on mentorship and advanced problem solving.  I became responsible for the technical setup of onbaording process of new hires with our environments as well as became a default point of contact for questions they may have.
+            - Operate as a direct point of contact for high impact issues affecting customers.
+            - Manage relationships with stakeholders through regular communication, informative reporting, and solutions engineering.
+            - Translate client requirements into viable solutions within the application.
+            - Read, write, and document internal company code (Ruby, SQL, PHP, and sh).
+            - Take innitiative by identifying and filling potential knowledge gaps on the team.
+            - Proactively diagnose issues and alert key players before these issues become larger problems.
+            - Mentor and train new team members.
+            - Continue with the responsibilities as the Application Support Engineer
+      - role: Data Analyst
+        time: 2018 - 2022
+        company: The Craneware Group
+        details: |
+          The technical client support team (TCS) manages all post-deployment product issues within the company. They are directly in contact with customers who have issues that were not solved by the standard support department. Through regular communciation, TCS generates reports, writes custom SQL scripts, and engineers solutions to customize the products to our clients needs.
+            - Translated client symptoms into both requirements documents and proposed solutions. Communicated these to clients in a way that was understandable and non-technical.
+            - Managed relationships with internal and external stakeholders.
+            - Generated informative reports to augment explanations and increase client confidence in a proposed solution.
             - Read, wrote, and documented internal company code using languages including Ruby, SQL, PHP, and Shell Script.
-            - Worked directly with customers in order to create viable solutions for complex problems.
-            - Take innitiative on understanding and filling knowledge gaps.
-            - Diagnose and Identify issues related to our product, customer workflows, data ingestion, and local technologies.
-            - Acted as a primary resource for diagnosis of urgent issues.
-            - Responsible for the mentoring and training of new team members.
+            - Leveraged existing frameworks to format, ingest, and validate data being brought into the system by external healthcare entities.
+            - Acted as a subject matter expert for the patient database component of our product.
+            - Designed a suite of SQL queries and scripts for TCS team members to utilize. This led to significant improvements in our ability to diagnose problems.
+      
       - role: Automation Engineer
         time: 2017 - 2018
         company: Orchard Software
         details: |
-          Work as a team in order to implement an automated testing workflow for the company. This included an implementation of a Jenkins CI/CD pipeline, a full testing suite
-            - Implemented an automated service that tracked and marked Confluence documentation as out of date. This included pipelines to assign the review of pages in addition to 
-            - Designed and implemented reporting for automation efforts. Ensured that these reports had proper documentation and provided information was clear and concise.
-            - Worked in C# to implement testing requirements and deploy them to our automated test suite.
-            - Load tested new softwares in order to ensure durability, stability, and resource expectations.
-            - Created an new installation suite for the company product in order to minimize our technology stack.
+          Worked as a team in order to create and implement an automated testing workflow for the company. This included an implementation of a Jenkins CI/CD pipeline, a full testing suite developed in C#, and customer reporting pipelines to provide information to stakeholders.
+            - Implemented an automated service that tracked and marked internal documentation for regular review. This included pipelines that assigned the review of pages out to devcs.
+            - Designed a reporting pipeline for automated testing efforts of new products. Ensured that these reports had proper documentation and all provided information was clear and concise.
+            - Worked in C# to implement testing requirements and deploy them out via our automated testing suite.
+            - Stress Tested new tools and new products in order to ensure durability, scalability, and resource expectations.
+            - Built custom installers for outdated products in order to minimize our technology stack.
+
       - role: Quality Assurance Engineer
         time: 2016 - 2017
         company: Orchard Software
         details: |
-          Operate as the primary QA contact for technical support and all SQL related questions. This is the department that handles
+          Operated as a Quality Assurance contact for all departments seeking answers on complex issues. With my prodcut speciality, SQL knowledge, and problem solving skills, I acted as a critical source for answers.
             - Operated as a high-tier support resource for our highest-value clients.
             - Worked closely with development and support departments
             - Supported and re-wrote the installation suite for our main product.
-            - Acted in a devops role for our support and implementation departments.
+            - Acted as liason between the support and development departments.
+
       - role: Emerging Technology Specialist
         time: 2016 - 2016
         company: Orchard Software
         details: |
-          Test, document, and manage all new technologies deployed by the company. Prepare our support teamn for working with new producxts and technologies so transitions from development to support can be as seamless as possible.
-            - Continued to operate as a technical support resource and keystone.
-            - Direct support of our highest-value clients with 24-hour availability.
-            - Operated as the primary resource for support and testing of technologies and products being introduced to the department for future support.
-            - Worked with reporting technologies such as powerBI and SSRS to create dynamic and powerful reports for clients.
-            
-      - role: Technical Support Analyst - Tier II
-        time: 2014 - 2016
+          With the executive team being sunset, a role was created to allow me to continue to operate as a key member of the team. This role enabled me to be flexible between tackling complex support issues that continued to arise and testing new technology. New technologies were documented in a way that the support team was able to smoothly adopt their responsibilities on release.
+            - Continued to operate as a primary resource and key problem solver for the support team.
+            - Directly supported our highest-value clients with 24-hour availability.
+            - Served as the primary resource for testing new technology being introduced to the department.
+            - Acted as the department liason between Support, Development, and QA to ensure high quality solutions were found.
+            - Leveraged PowerBI and SSRS to generate and support dynamic reporting for clients.
+
+      - role: Technical Support Analyst - Tier II Technical Lead
+        time: 2015 - 2016
         company: Orchard Software
         details: |
-          Operate as an analyst for the tecnical support team while learning and documenting the product. Operated as the direct contact for dozens of clients.
-            - Managed SQL Server systems for various clients, including, performing maintenance, managing data retention, and diagnosis database related issues.
-            - Gathered complex laboratory requirements and translated them into viable workflows within the product.
-            - Wrote custom reporting queries for clients. Translated these queries into our reporting suite for recurring usage.
-            - Operated as the primary technical contact for long-standing issues.
-            - Developed internal softwares for support department use cases.
+          Originally hired on for the technical support team, I gained a reputation for rapid resolution of issues and consistent positive remarks. Between a sharp memory, a knack for pattern recognition, and a keen eye for detail, I was quickly promoted to a technical lead position.
+            - Managed Microsoft SQL Server instances for clients; performed regular maintenance, managed data retention policies, and diagnosed database related issues.
+            - Gathered complex laboratory requirements and translated them into viable product workflows.
+            - Coordinated with other departments to prioritize and resolve recurring issues.
+            - Wrote custom SQL backed reports for clients. These would be implemented later as critical reporting pipelines.
+            - Operated as a primary contact and solutions expert for clients with complex long-standing issues.
+            - Performed additional development for departments internal applications. 
 projects:
     title: Projects
     intro: >
-      The majority of my projects are proprietary work projects. However from time to time I make things that I find necessary or helpful that get put onto github.
+      The majority of my projects are conducted through work. However from time to time I make things that I find necessary or helpful that get put onto github.
     assignments:
+      - title: ActionSwarm automation components
+        link: "https://www.nuget.org/profiles/ebirch"
+        tagline: "A core responsibility as an automation engineer was ensuring internal documentation "
+
       - title: 4-Card Blind Discord Bot
         link: "https://github.com/AceTrainerErik/4cb_bot"
-        tagline: "A call and response/command bot written in c# to help some friends manage their discord server. Utilizes SQLite to track user data and provide it for analysis later."
+        tagline: "A discord command bot written in C# to help manage a game held within a discord server. Utilizes SQLite to track user data and provide it for analysis later. The high availability made gathering user information more accurate and reliable."
 
       - title: Scryfall API
         link: "https://github.com/AceTrainerErik/Scryfall-API-Client"
@@ -161,23 +210,20 @@ skills:
     title: Skills &amp; Proficiencies
 
     toolset:
+      - name: Problem Solving
+        level: 95%
+      - name: Technical Communication
+        level: 95%
       - name: SQL
-        level: 95%
-
-      - name: Technical Communicaiton
-        level: 95%
-        
+        level: 90%
+      - name: Data
+        level: 85%
       - name: C#
-        level: 85%
-        
-      - name: JIRA
-        level: 85%
-
+        level: 75%
       - name: Linux
-        level: 70%
-
+        level: 65%
       - name: Python
-        level: 45%
+        level: 60%
 
 footer: >
-  Website constructed with <a href="https://jekyllrb.com/"></a> and design modified from an original design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Website constructed with <a href="https://jekyllrb.com/">Jeykll RB</a>

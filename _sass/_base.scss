@@ -19,11 +19,13 @@ h6 {
 }
 
 a {
-  color: darken($theme-primary, 15%);
+  color: darken($theme-primary, 10%);
+
   &:hover {
     text-decoration: underline;
     color: darken($theme-primary, 30%);
   }
+
   &:focus {
     text-decoration: none;
   }
@@ -48,21 +50,25 @@ p {
   order: 2;
   background: $theme-primary;
   color: #fff;
+
   a {
     color: #fff;
   }
+
   .profile-container {
     padding: 30px;
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
+
   .name {
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
   }
+
   .tagline {
     color: rgba(256, 256, 256, 0.6);
     font-size: 16px;
@@ -70,6 +76,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .profile {
     margin-bottom: 15px;
   }
@@ -82,7 +89,9 @@ p {
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
+
   .contact-list {
+
     .fas,
     .fab,
     .far {
@@ -90,77 +99,126 @@ p {
       font-size: 18px;
       vertical-align: middle;
     }
+
+
     li {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
+
   .container-block {
-    padding: 30px;
+    padding: 20px;
   }
+
   .container-block-title {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
+
   .degree {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
+
   .education-container {
     .item {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
+
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: color-mix(in srgb, var($sidebar-text), transparent(60%));
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
+
     .time {
-      color: rgba(256, 256, 256, 0.6);
+      color: color-mix(in srgb, var($sidebar-text), transparent(60%));
       font-weight: 500;
       margin-bottom: 0px;
     }
   }
+
   .languages-container {
     .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
+      color: color-mix(in srgb, var($sidebar-text), transparent(60%));
     }
   }
 
   .languages-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
 
+  .interests-container {
+    .fa-ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+
   .interests-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
-  
+
+  // .container-block-title {
+  //   text-transform: uppercase;
+  //   font-size: 16px;
+  //   font-weight: 700;
+  //   margin-top: 0;
+  //   margin-bottom: 5px;
+  // }
+
+  .container-block-subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    i {
+      padding-right: 10px;
+    }
+  }
+
+  .misc-skills-block {
+    font-size: 14px;
+  }
+
   .misc-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -172,6 +230,7 @@ p {
   grid-column: span 7;
   background: $theme-secondary;
   padding: 60px;
+
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -181,6 +240,7 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
   .section {
     margin-bottom: 60px;
   }
@@ -188,15 +248,39 @@ p {
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
   }
+
+  .card-header {
+    a::before {
+      font-family: 'Glyphicons Halflings';
+      padding-right: 5px;
+      padding-left: 10px;
+      float: left;
+      content: "\2212";
+      color: $subtext-color;
+    }
+  }
+
+  .card-header {
+    a.collapsed::before {
+      content: "\2b";
+    }
+  }
+
+  .details {
+    padding-left: 10px;
+    padding-left: 10px;
+  }
+
   .upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
   }
+
   .job-title,
   .degree {
     color: $text-color;
@@ -206,6 +290,7 @@ p {
     font-weight: 500;
     flex: 75%;
   }
+
   .time {
     position: absolute;
     right: 0;
@@ -213,6 +298,7 @@ p {
     color: $subtext-color;
     flex: 25%;
   }
+
   .company,
   .university {
     margin-bottom: 10px;
@@ -226,10 +312,12 @@ p {
     margin-bottom: 5px;
     color: darken($theme-primary, 15%);
   }
+
   .projects-section {
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
@@ -241,15 +329,18 @@ p {
     color: $text-color;
     margin-bottom: 1px;
   }
+
   .publication-authors {
     font-style: italic;
     color: $subtext-color;
     margin-bottom: 1px;
   }
+
   .publications-section {
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
@@ -261,15 +352,18 @@ p {
     margin-bottom: 15px;
     overflow: hidden;
   }
+
   .level-title {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
   }
+
   .level-bar {
     height: 12px;
     background: transparentize(lighten($theme-primary, 15%), 0.8);
   }
+
   .level-bar-inner {
     height: 12px;
     background: lighten($theme-primary, 15%);
@@ -278,6 +372,7 @@ p {
 
 .footer {
   padding-top: 30px;
+
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;

@@ -1,17 +1,27 @@
 {% assign misc = site.data.data.sidebar.misc %}
 {% if misc %}
-<div class="misc-container container-block">
+<div class="misc-container container-block misc-list">
 
-  <h2 class="container-block-title">
+  <!-- <h2 class="container-block-title">
     {{ misc.title }}
-  </h2>
-    {% for skill in misc.info %}
-      {% if skill.link %}
-        <a href="{{ interest.link }}">{{ skill.item }}</a>,
-      {% else %}
-      {{ skill.item }}{% unless forloop.last %},{% endunless  %}
-      {% endif %}
-    {% endfor %}
+  </h2> -->
+  {% for category in misc.skillsets %}
+    <div class="misc-container-block">
+      <h2 class="container-block-subtitle">
+        <i class="fa fa-fw {{ category.icon }}" aria-hidden="true"> </i>
+        {{ category.subtitle }}
+      </h2>
+      <div class="misc-skills-block">
+        {% for skill in category.info %}
+          {% if skill.link %}
+            <a href="{{ interest.link }}">{{ skill.item }}</a>{% unless forloop.last %},{% endunless %}
+          {% else %}
+            {{ skill.item }}{% unless forloop.last %},{% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div> <!--//misc-skills-block-->
+    </div> <!--//misc-container-block-->
+  {% endfor %}
 
-</div><!--//misc-->
+</div> <!--//misc-->
 {% endif %}
