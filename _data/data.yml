@@ -115,7 +115,7 @@ experiences:
     title: Experience
     info:
       - role: Senior Application Support Engineer
-        time: 2022 - Present
+        time: 05/2022 - Present
         company: The Craneware Group
         details: |
           As a Senior Engineer at the Craneware Group, my role expanded into role more focused on mentorship and advanced problem solving.  I became responsible for the technical setup of onbaording process of new hires with our environments as well as became a default point of contact for questions they may have.
@@ -128,7 +128,7 @@ experiences:
             - Mentor and train new team members.
             - Continue with the responsibilities as the Application Support Engineer
       - role: Data Analyst
-        time: 2018 - 2022
+        time: 10/2018 - 05/2022
         company: The Craneware Group
         details: |
           The technical client support team (TCS) manages all post-deployment product issues within the company. They are directly in contact with customers who have issues that were not solved by the standard support department. Through regular communciation, TCS generates reports, writes custom SQL scripts, and engineers solutions to customize the products to our clients needs.
@@ -140,8 +140,8 @@ experiences:
             - Acted as a subject matter expert for the patient database component of our product.
             - Designed a suite of SQL queries and scripts for TCS team members to utilize. This led to significant improvements in our ability to diagnose problems.
       
-      - role: Automation Engineer
-        time: 2017 - 2018
+      - role: Test Automation Engineer
+        time: 04/2016 - 10/2018
         company: Orchard Software
         details: |
           Worked as a team in order to create and implement an automated testing workflow for the company. This included an implementation of a Jenkins CI/CD pipeline, a full testing suite developed in C#, and customer reporting pipelines to provide information to stakeholders.
@@ -152,7 +152,7 @@ experiences:
             - Built custom installers for outdated products in order to minimize our technology stack.
 
       - role: Quality Assurance Engineer
-        time: 2016 - 2017
+        time: 04/2016 - 04/2016
         company: Orchard Software
         details: |
           Operated as a Quality Assurance contact for all departments seeking answers on complex issues. With my prodcut speciality, SQL knowledge, and problem solving skills, I acted as a critical source for answers.
@@ -162,7 +162,7 @@ experiences:
             - Acted as liason between the support and development departments.
 
       - role: Emerging Technology Specialist
-        time: 2016 - 2016
+        time: 12/2015 - 04/2016
         company: Orchard Software
         details: |
           With the executive team being sunset, a role was created to allow me to continue to operate as a key member of the team. This role enabled me to be flexible between tackling complex support issues that continued to arise and testing new technology. New technologies were documented in a way that the support team was able to smoothly adopt their responsibilities on release.
@@ -172,12 +172,22 @@ experiences:
             - Acted as the department liason between Support, Development, and QA to ensure high quality solutions were found.
             - Leveraged PowerBI and SSRS to generate and support dynamic reporting for clients.
 
-      - role: Technical Support Analyst - Tier II Technical Lead
-        time: 2015 - 2016
+      - role: Tier II - Executive Account Region - Technical Lead
+        time: 11/2014 - 11/2015
         company: Orchard Software
         details: |
           Originally hired on for the technical support team, I gained a reputation for rapid resolution of issues and consistent positive remarks. Between a sharp memory, a knack for pattern recognition, and a keen eye for detail, I was quickly promoted to a technical lead position.
             - Managed Microsoft SQL Server instances for clients; performed regular maintenance, managed data retention policies, and diagnosed database related issues.
+            - Gathered complex laboratory requirements and translated them into viable product workflows.
+            - Coordinated with other departments to prioritize and resolve recurring issues.
+            - Wrote custom SQL backed reports for clients. These would be implemented later as critical reporting pipelines.
+            - Operated as a primary contact and solutions expert for clients with complex long-standing issues.
+            - Performed additional development for departments internal applications. 
+
+      - role: Laboratory Information Systems Support Specialist
+        time: 03/2014 — 11/2014
+        company: Orchard Software
+        details: |
             - Gathered complex laboratory requirements and translated them into viable product workflows.
             - Coordinated with other departments to prioritize and resolve recurring issues.
             - Wrote custom SQL backed reports for clients. These would be implemented later as critical reporting pipelines.
