@@ -30,18 +30,7 @@ sidebar:
       title: Miscellaneous Skills
       skillsets:
         - category:
-          subtitle: Skills
-          icon: fa-sitemap
-          info:
-            - item: Data Normalization
-            - item: Database Design
-            - item: Version Control
-            - item: Data Reporting
-            - item: Automation
-            - item: Testing
-            - item: Healthcare Data
-        - category:
-          subtitle: Language Experience
+          subtitle: Languages
           icon: fa-robot
           info:
             - item: SQL
@@ -57,7 +46,18 @@ sidebar:
             - item: Sh
             - item: JSON
         - category:
-          subtitle: Products &amp; Platforms
+          subtitle: Skills
+          icon: fa-sitemap
+          info:
+            - item: Data Normalization
+            - item: Database Design
+            - item: Version Control
+            - item: Data Reporting
+            - item: Automation
+            - item: Testing
+            - item: Healthcare Data
+        - category:
+          subtitle: Technology
           icon: fa-database
           info:
             - item: Git
@@ -99,22 +99,16 @@ sidebar:
           icon: fa-leaf
           link:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
 career-profile:
-    title: Career Profile
+    title: Who Am I?
     summary: |
       Hello! My name is Erik and I am a professional problem solver. In my spare time I enjoy reading SciFi novels, picking up new hobbies, traveling, and a variety of types of gaming. I've spent the past ten years working with healthcare data. Specifically, working labratory testing and pharmaceutical inventory softwares.
 
 education:
     title: Education
     info:
-      - degree: BS in Computer Science
-        university: Indianapolis University Purdue University Indianapolis 
+      - degree: Bachelor of Science - Computer Science
+        university: Indianapolis University Purdue University Indianapolis
         time: 2008 - 2013
 
 experiences:
@@ -194,17 +188,21 @@ projects:
     intro: >
       The majority of my projects are conducted through work. However from time to time I make things that I find necessary or helpful that get put onto github.
     assignments:
+      - title: AceTrainerErik.github.io
+        link: "https://acetrainererik.github.io"
+        tagline: "This website was created as an exercise in learning basic web design. It is a jekyll generated website that allows me to modify and commit one data file in order to push changes to the website."
+
       - title: ActionSwarm automation components
         link: "https://www.nuget.org/profiles/ebirch"
-        tagline: "A core responsibility as an automation engineer was ensuring internal documentation "
+        tagline: "As an automation engineer we created a series of libraries to facilitate API access, testing frameworks, etc. Many of those were published to NuGet."
 
       - title: 4-Card Blind Discord Bot
         link: "https://github.com/AceTrainerErik/4cb_bot"
-        tagline: "A discord command bot written in C# to help manage a game held within a discord server. Utilizes SQLite to track user data and provide it for analysis later. The high availability made gathering user information more accurate and reliable."
+        tagline: "A discord command bot written in C# to help manage a game held within a discord server. Utilizes SQLite to track user data and provides it for later analysis. The high availability made gathering user information more accurate and reliable."
 
       - title: Scryfall API
         link: "https://github.com/AceTrainerErik/Scryfall-API-Client"
-        tagline: "This open source API was being used to pull data required for the above project. I needed a specific API feature so I added it for myself."
+        tagline: "This open source API was being used to pull data required for a project. I needed a specific API feature so I added it for myself and submitted the PR for the branch."
 
 skills:
     title: Skills &amp; Proficiencies
@@ -216,14 +214,14 @@ skills:
         level: 95%
       - name: SQL
         level: 90%
-      - name: Data
+      - name: Data Modelling
         level: 85%
       - name: C#
         level: 75%
       - name: Linux
-        level: 65%
+        level: 70%
       - name: Python
-        level: 60%
+        level: 65%
 
 footer: >
-  Website constructed with <a href="https://jekyllrb.com/">Jeykll RB</a>
+  Website constructed with <a href="https://jekyllrb.com/">Jeykll RB</a>.
