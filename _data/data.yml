@@ -102,7 +102,7 @@ sidebar:
 career-profile:
     title: Who Am I?
     summary: |
-      Hello! My name is Erik and I am a professional problem solver. In my spare time I enjoy reading SciFi novels, picking up new hobbies, traveling, and a variety of types of gaming. I've spent the past ten years working with healthcare data. Specifically, working labratory testing and pharmaceutical inventory softwares.
+      Hello! My name is Erik and I am a professional problem solver. In my spare time I enjoy reading SciFi novels, picking up new hobbies, traveling, and a variety of types of gaming. I've spent the past ten years working with healthcare data. My specialities include SQL, Linux, Git, HL7, Automated Testing, Automation, Python, and Quality Assurance
 
 education:
     title: Education
@@ -169,7 +169,7 @@ experiences:
             - Continued to operate as a primary resource and key problem solver for the support team.
             - Directly supported our highest-value clients with 24-hour availability.
             - Served as the primary resource for testing new technology being introduced to the department.
-            - Acted as the department liason between Support, Development, and QA to ensure high quality solutions were found.
+            - Acted as the department liaison between Support, Development, and QA to ensure high quality solutions were found.
             - Leveraged PowerBI and SSRS to generate and support dynamic reporting for clients.
 
       - role: Tier II - Executive Account Region - Technical Lead
