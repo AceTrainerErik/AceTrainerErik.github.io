@@ -36,7 +36,7 @@ sidebar:
             - item: SQL
             - item: Java
             - item: Python
-            - item: Javascript
+            - item: JavaScript
             - item: PHP
             - item: Ruby
             - item: Perl
@@ -118,34 +118,35 @@ experiences:
         time: 05/2022 - Present
         company: The Craneware Group
         details: |
-          As a Senior Engineer at the Craneware Group, my role expanded into role more focused on mentorship and advanced problem solving.  I became responsible for the technical setup of onbaording process of new hires with our environments as well as became a default point of contact for questions they may have.
+          As a Senior Engineer at the Craneware Group, my role expanded into role more focused on mentorship and advanced problem solving.  I became responsible for the technical setup of onboarding process of new hires with our environments as well as became a default point of contact for questions they may have.
             - Operate as a direct point of contact for high impact issues affecting customers.
             - Manage relationships with stakeholders through regular communication, informative reporting, and solutions engineering.
             - Translate client requirements into viable solutions within the application.
             - Read, write, and document internal company code (Ruby, SQL, PHP, and sh).
-            - Take innitiative by identifying and filling potential knowledge gaps on the team.
+            - Take initiative by identifying and filling potential knowledge gaps on the team.
             - Proactively diagnose issues and alert key players before these issues become larger problems.
             - Mentor and train new team members.
             - Continue with the responsibilities as the Application Support Engineer
+
       - role: Data Analyst
         time: 10/2018 - 05/2022
         company: The Craneware Group
         details: |
-          The technical client support team (TCS) manages all post-deployment product issues within the company. They are directly in contact with customers who have issues that were not solved by the standard support department. Through regular communciation, TCS generates reports, writes custom SQL scripts, and engineers solutions to customize the products to our clients needs.
+          The technical client support team (TCS) manages all post-deployment product issues within the company. They are directly in contact with customers who have issues that were not solved by the standard support department. Through regular communication, TCS generates reports, writes custom SQL scripts, and engineers solutions to customize the products to our clients needs.
             - Translated client symptoms into both requirements documents and proposed solutions. Communicated these to clients in a way that was understandable and non-technical.
             - Managed relationships with internal and external stakeholders.
             - Generated informative reports to augment explanations and increase client confidence in a proposed solution.
             - Read, wrote, and documented internal company code using languages including Ruby, SQL, PHP, and Shell Script.
             - Leveraged existing frameworks to format, ingest, and validate data being brought into the system by external healthcare entities.
-            - Acted as a subject matter expert for the patient database component of our product.
+            - Acted as a subject-matter expert for the patient database component of our product.
             - Designed a suite of SQL queries and scripts for TCS team members to utilize. This led to significant improvements in our ability to diagnose problems.
-      
+
       - role: Test Automation Engineer
         time: 04/2016 - 10/2018
         company: Orchard Software
         details: |
           Worked as a team in order to create and implement an automated testing workflow for the company. This included an implementation of a Jenkins CI/CD pipeline, a full testing suite developed in C#, and customer reporting pipelines to provide information to stakeholders.
-            - Implemented an automated service that tracked and marked internal documentation for regular review. This included pipelines that assigned the review of pages out to devcs.
+            - Implemented an automated service that tracked and marked internal documentation for regular review. This included pipelines that assigned the review of pages out to qualified reviewers to assess the documentation and maintain it as needed.
             - Designed a reporting pipeline for automated testing efforts of new products. Ensured that these reports had proper documentation and all provided information was clear and concise.
             - Worked in C# to implement testing requirements and deploy them out via our automated testing suite.
             - Stress Tested new tools and new products in order to ensure durability, scalability, and resource expectations.
@@ -155,7 +156,7 @@ experiences:
         time: 04/2016 - 04/2016
         company: Orchard Software
         details: |
-          Operated as a Quality Assurance contact for all departments seeking answers on complex issues. With my prodcut speciality, SQL knowledge, and problem solving skills, I acted as a critical source for answers.
+          Operated as a Quality Assurance contact for all departments seeking answers on complex issues. With my product speciality, SQL knowledge, and problem solving skills, I acted as a critical source for answers.
             - Operated as a high-tier support resource for our highest-value clients.
             - Worked closely with development and support departments
             - Supported and re-wrote the installation suite for our main product.
@@ -196,7 +197,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      The majority of my projects are conducted through work. However from time to time I make things that I find necessary or helpful that get put onto github.
+      The majority of my projects are conducted through work. However from time to time I make things that I find necessary or helpful that get put onto GitHub.
     assignments:
       - title: AceTrainerErik.github.io
         link: "https://acetrainererik.github.io"
@@ -218,7 +219,7 @@ skills:
     title: Skills &amp; Proficiencies
 
     toolset:
-      - name: Problem Solving
+      - name: Problem-Solving
         level: 95%
       - name: Technical Communication
         level: 95%
