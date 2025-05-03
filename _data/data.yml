@@ -204,7 +204,7 @@ projects:
         link: "https://acetrainererik.github.io"
         tagline: "This website was created as an exercise in learning basic web design. It is a jekyll generated website that allows me to modify and commit one data file in order to push changes to the website."
 
-        - title: 4-Card Blind Discord Bot
+      - title: 4-Card Blind Discord Bot
         link: "https://github.com/AceTrainerErik/4cb_bot"
         tagline: "A discord command bot written in C# to help manage a game held within a discord server. Utilizes SQLite to track user data and provides it for later analysis. The high availability made gathering user information more accurate and reliable."
 
