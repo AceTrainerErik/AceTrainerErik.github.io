@@ -101,10 +101,10 @@
     <li class="book"><i class="fas fa-book aria-label" title="Currently Reading"></i>
       {% if sidebar.book.link %}
       <a href="{{ sidebar.book.link}}" target="_blank">
-        {{ sidebar.book.title }}
+        {{ sidebar.book.title }} (<i>{{ sidebar.book.author }}</i>)
       </a>
       {% else %}
-        {{ sidebar.book.title }}
+        {{ sidebar.book.title }} (<i>{{ sidebar.book.author }}</i>)
       {% endif %}
     </li>
     {% endif %}

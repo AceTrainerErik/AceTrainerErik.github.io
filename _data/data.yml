@@ -23,8 +23,9 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
     book: 
-      title: Cloud Atlas
-      link: https://www.goodreads.com/book/show/49628.Cloud_Atlas
+      title: Bluebeard
+      author: Kurt Vonnegut Jr.
+      link: https://www.goodreads.com/book/show/9601.Bluebeard
       
     misc:
       title: Miscellaneous Skills
@@ -203,13 +204,13 @@ projects:
         link: "https://acetrainererik.github.io"
         tagline: "This website was created as an exercise in learning basic web design. It is a jekyll generated website that allows me to modify and commit one data file in order to push changes to the website."
 
+        - title: 4-Card Blind Discord Bot
+        link: "https://github.com/AceTrainerErik/4cb_bot"
+        tagline: "A discord command bot written in C# to help manage a game held within a discord server. Utilizes SQLite to track user data and provides it for later analysis. The high availability made gathering user information more accurate and reliable."
+
       - title: ActionSwarm automation components
         link: "https://www.nuget.org/profiles/ebirch"
         tagline: "As an automation engineer we created a series of libraries to facilitate API access, testing frameworks, etc. Many of those were published to NuGet."
-
-      - title: 4-Card Blind Discord Bot
-        link: "https://github.com/AceTrainerErik/4cb_bot"
-        tagline: "A discord command bot written in C# to help manage a game held within a discord server. Utilizes SQLite to track user data and provides it for later analysis. The high availability made gathering user information more accurate and reliable."
 
       - title: Scryfall API
         link: "https://github.com/AceTrainerErik/Scryfall-API-Client"
@@ -225,7 +226,7 @@ skills:
         level: 95%
       - name: SQL
         level: 90%
-      - name: Data Modelling
+      - name: Relational Databases
         level: 85%
       - name: C#
         level: 75%
