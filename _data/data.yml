@@ -23,9 +23,9 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
     book: 
-      title: Bluebeard
-      author: Kurt Vonnegut Jr.
-      link: https://www.goodreads.com/book/show/9601.Bluebeard
+      title: Children of Sorrow
+      author: Adrian Tchaikovsky
+      link: https://www.goodreads.com/book/show/231953328-children-of-strife
       
     misc:
       title: Miscellaneous Skills
@@ -96,14 +96,14 @@ sidebar:
         - item: Gaming
           icon: fa-gamepad
           link:
-        - item: Camping
-          icon: fa-leaf
+        - item: Miniatures Painting
+          icon: fa-palette
           link:
 
 career-profile:
     title: Who Am I?
     summary: |
-      Hello! My name is Erik and I am a professional problem solver. In my spare time I enjoy reading SciFi novels, picking up new hobbies, traveling, and a variety of types of gaming. I've spent the past ten years working with healthcare data. My specialities include SQL, Linux, Git, HL7, Automated Testing, Automation, Python, and Quality Assurance. I wear a lot of hats during my tenure so this website was build in order to assist with displaying and promoting my skillsets to potential employers.
+      My name is Erik and I am a professional problem solver. I've spent the past thirteen years working in the healthcare data space. I aspire to tackle any issue presnted to me and to understand it completely. I leverage my experience in SQL, automation, and technical communication to present solutions to problems in ways that enable greater understanding. I wear a lot of hats during my tenure so this website was built as an experiment to promote my various skillsets to interested parties. In my spare time I enjoy reading SciFi novels, learning a new hobby, various forms of gaming, and miniatures painting.
 
 education:
     title: Education
@@ -115,6 +115,19 @@ education:
 experiences:
     title: Experience
     info:
+      - role: Lead Production Support Engineer
+        time: 11/2025 - Present
+        company: The Craneware Group
+        details: |
+          Responsible for leading cross-department projects in relation to discovered issues, interfaces between other departments, and also leads on the education of new features and changes to the rest of the team.
+            - Handles customer-related issues/cases with internal business partners and external customers to demonstrate findings and resolve issues within established response times.
+            - Understands the root cause of customer business questions. Identify sources of data errors and take measures to resolve them. This typically requires influencing customers to adapt and change their processes or the construction of complex processes to correct data retroactively.
+            - Leads projects and interfaces with the product and development teams when code defects or necessary product enhancements issues are discovered.
+            - Serves as Subject Matter Expert on specific areas within the product; taking on more complex and escalation level work.
+            - Deals with sensitive customers situations independently.
+            - Updates documentation to latest standards; eliminates duplication, identifies areas of conflicting information and works with different teams to reconcile it.
+            - Develops and delivers education sessions.
+
       - role: Senior Application Support Engineer
         time: 05/2022 - Present
         company: The Craneware Group
@@ -129,7 +142,7 @@ experiences:
             - Mentor and train new team members.
             - Continue with the responsibilities as the Application Support Engineer
 
-      - role: Data Analyst
+      - role: Application Support Engineer
         time: 10/2018 - 05/2022
         company: The Craneware Group
         details: |
