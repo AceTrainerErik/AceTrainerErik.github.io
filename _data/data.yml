@@ -96,14 +96,14 @@ sidebar:
         - item: Gaming
           icon: fa-gamepad
           link:
-        - item: Miniatures Painting
+        - item: Minis Painting
           icon: fa-palette
           link:
 
 career-profile:
     title: Who Am I?
     summary: |
-      My name is Erik and I am a professional problem solver. I've spent the past thirteen years working in the healthcare data space. I aspire to tackle any issue presnted to me and to understand it completely. I leverage my experience in SQL, automation, and technical communication to present solutions to problems in ways that enable greater understanding. I wear a lot of hats during my tenure so this website was built as an experiment to promote my various skillsets to interested parties. In my spare time I enjoy reading SciFi novels, learning a new hobby, various forms of gaming, and miniatures painting.
+      My name is Erik and I am a professional problem solver. I've spent the past thirteen years working in the healthcare data space with responsibilities covering support, automation, and analysis. I aspire to tackle any issue presnted to me and understand it completely. I leverage my experience in SQL and automation to identify potential solutions and utilize strong technical communication skills to present solutions to problems in ways that enable non technical understanding. In my spare time I enjoy reading SciFi novels, gaming, and miniatures painting.
 
 education:
     title: Education
@@ -239,13 +239,13 @@ skills:
         level: 95%
       - name: SQL
         level: 90%
-      - name: Relational Databases
-        level: 85%
-      - name: C#
-        level: 75%
+      - name: Automated Processes
+        level: 80%
       - name: Linux
-        level: 70%
+        level: 75%
       - name: Python
+        level: 65%
+      - name: C#
         level: 65%
 
 footer: >
